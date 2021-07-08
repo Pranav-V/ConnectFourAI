@@ -1,0 +1,9 @@
+package rrhs.connectfour.game;
+import mayflower.*; 
+
+public class ConnectFourStage extends Stage
+{
+    public void update()
+    {
+    }
+}

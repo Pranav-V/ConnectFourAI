@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Click
+comment1.params=c\ col
+comment1.target=Click(ConnectFourClient,\ int)
+comment2.params=a\ col
+comment2.target=Click(ConnectFourAI,\ int)
+comment3.params=
+comment3.target=void\ update()
+numComments=4

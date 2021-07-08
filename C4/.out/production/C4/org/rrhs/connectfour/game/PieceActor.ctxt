@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PieceActor
+comment1.params=type
+comment1.target=PieceActor(java.lang.String)
+comment2.params=
+comment2.target=void\ update()
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ConnectFourStage
+comment1.params=cl\ game\ p
+comment1.target=ConnectFourStage(ConnectFourClient,\ ConnectFour,\ Piece)
+comment2.params=
+comment2.target=void\ update()
+comment3.params=type\ col
+comment3.target=void\ addPiece(java.lang.String,\ java.lang.String)
+numComments=4

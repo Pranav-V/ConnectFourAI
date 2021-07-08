@@ -1,0 +1,123 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4
+-source
+11
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.12.jar;C:\Program Files\BlueJ\lib\junit-jupiter-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-api-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-migrationsupport-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-params-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-commons-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-console-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-console-standalone-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-engine-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-launcher-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-reporting-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-runner-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-suite-api-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-testkit-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-quickcheck-core-0.9.jar;C:\Program Files\BlueJ\lib\junit-vintage-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\hamcrest-library-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;C:\Users\theon\Downloads\mayflower2.13.jar;C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4
+-d
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-doctitle
+C4
+-windowtitle
+C4
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/11/docs/api/
+org.rrhs.connectfour
+org.rrhs.connectfour.server
+org.rrhs.connectfour.game
+<---- end of javadoc command ---->
+Loading source files for package org.rrhs.connectfour...
+Loading source files for package org.rrhs.connectfour.server...
+Loading source files for package org.rrhs.connectfour.game...
+Constructing Javadoc information...
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourAI.java:10: error: cannot find symbol
+public class ConnectFourAI extends Stage
+                                   ^
+  symbol: class Stage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourAI.java:12: error: cannot find symbol
+    Text title;
+    ^
+  symbol:   class Text
+  location: class ConnectFourAI
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourAI.java:20: error: cannot find symbol
+    Text currentPlayer; 
+    ^
+  symbol:   class Text
+  location: class ConnectFourAI
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourStage.java:13: error: cannot find symbol
+public class ConnectFourStage extends Stage {
+                                      ^
+  symbol: class Stage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourStage.java:14: error: cannot find symbol
+    Text currentPlayer;
+    ^
+  symbol:   class Text
+  location: class ConnectFourStage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourStage.java:15: error: cannot find symbol
+    Text winner;
+    ^
+  symbol:   class Text
+  location: class ConnectFourStage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\ConnectFourStage.java:16: error: cannot find symbol
+    Text title;
+    ^
+  symbol:   class Text
+  location: class ConnectFourStage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\Lobby.java:8: error: cannot find symbol
+public class Lobby extends Stage {
+                           ^
+  symbol: class Stage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\Lobby.java:14: error: cannot find symbol
+    Text connecting;
+    ^
+  symbol:   class Text
+  location: class Lobby
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\LobbyButton.java:4: error: cannot find symbol
+import mayflower.Picture;
+                ^
+  symbol:   class Picture
+  location: package mayflower
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\LobbyButton.java:10: error: cannot find symbol
+    LobbyButton(Picture name) {
+                ^
+  symbol:   class Picture
+  location: class LobbyButton
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentButton.java:4: error: cannot find symbol
+import mayflower.Picture;
+                ^
+  symbol:   class Picture
+  location: package mayflower
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentButton.java:7: error: cannot find symbol
+        Picture q;
+        ^
+  symbol:   class Picture
+  location: class PaymentButton
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentButton.java:8: error: cannot find symbol
+        Picture p;
+        ^
+  symbol:   class Picture
+  location: class PaymentButton
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentHandler.java:3: error: package com.stripe.exception does not exist
+import com.stripe.exception.StripeException;
+                           ^
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentHandler.java:4: error: package com.stripe.model does not exist
+import com.stripe.model.Charge;
+                       ^
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentHandler.java:5: error: package com.stripe.model does not exist
+import com.stripe.model.Token;
+                       ^
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\PaymentHandler.java:2: error: package com.stripe does not exist
+import com.stripe.*;
+^
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\WinScreen.java:9: error: cannot find symbol
+public class WinScreen extends Stage {
+                               ^
+  symbol: class Stage
+C:\Users\theon\Downloads\C4-20210704T201814Z-001\C4\C4\org\rrhs\connectfour\game\WinScreen.java:10: error: cannot find symbol
+    java.util.List<Picture> images;
+                   ^
+  symbol:   class Picture
+  location: class WinScreen
+20 errors
